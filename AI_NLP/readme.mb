@@ -1,1 +1,24 @@
+What is Stemming?
 
+Stemming is the process of removing suffixes/prefixes to get the root word.
+
+Example:
+
+"running" → "run"
+
+"flies" → "fli"
+
+"happiness" → "happi"
+
+The stem may not always be a valid English word (unlike lemmatization, which produces valid dictionary forms).
+
+
+Stemming algorithms:
+
+        1.  Porters:
+
+                  
+                   PorterStemmer is a stemming algorithm in NLTK (Natural Language Toolkit).
+                   It reduces words to their root/stem form by chopping off common endings like -ing, -ed, -s, -ly, etc.
+
+        2.  Lan
