@@ -21,4 +21,11 @@ Stemming algorithms:
                    PorterStemmer is a stemming algorithm in NLTK (Natural Language Toolkit).
                    It reduces words to their root/stem form by chopping off common endings like -ing, -ed, -s, -ly, etc.
 
-        2.  Lan
+        2.  Lancaster:
+
+
+                   It’s a rule-based stemming algorithm that applies an iterative set of rules to reduce words to their root.
+
+                   Unlike PorterStemmer, it is more aggressive → it cuts words down more heavily, sometimes too much.
+
+                   Because of this, it often produces very short stems
