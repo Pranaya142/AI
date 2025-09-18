@@ -41,5 +41,7 @@ Stemming algorithms:
 
                    Less aggressive than Lancaster, but often produces cleaner stems than Porter.
 
-                   The Snowball Stemmer (also called the Porter2 stemmer) is an improved version of the original Porter stemmer. It’s available in NLTK and is widely used in NLP because it balances accuracy and aggressiveness better than Lancaster or Porter
+                   The Snowball Stemmer (also called the Porter2 stemmer) is an improved version of the original Porter stemmer. 
+                   
+                   It’s available in NLTK and is widely used in NLP because it balances accuracy and aggressiveness better than Lancaster or Porter
 
