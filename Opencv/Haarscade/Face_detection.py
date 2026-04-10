@@ -2,13 +2,13 @@ import numpy as np
 import cv2
 
 # call casecade classifieers
-face_class = cv2.CascadeClassifier(r'C:\Pranaya\AI\Deep_learning\opencv\haarcascade_classifier\face_default.xml')
+face_class = cv2.CascadeClassifier(r'face_default.xml')
 
 # check whether the file is available or not
 if face_class.empty():
     print("not file founded")
     exit()
-image = cv2.imread(r'C:\Pranaya\AI\images\samvedya_ai.png')
+image = cv2.imread(r'samvedya_ai.png')
 
 #check the image loded or not
 '''if not image.isOpen():
